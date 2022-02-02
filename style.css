@@ -1,26 +1,48 @@
 /* Global Styles
 ---------------------------- */
 body {
+
     color: #708090;
     background: #d3d3d3;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: Habibi;
+    font-size: 15px;
+    line-height: 1.5;
+}
+html{
+    box-sizing: border-box;
+}
+*, *:before, *::after{
+    box-sizing: inherit;
 }
 
 img{
     width: 350px;
 }
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
 
 h1{
+ font-family: Charmonman;   
+font-size: 60px;
+font-style: italic;
+margin: 0;
  color: #4169e1;
 }
 
 h2 {
+    margin: 0;
 color: black;
+font-size: 30px;
 }
 
 h3 {
     color: #4169e1;
+    font-size: 20px;
 }
 
 a{
@@ -36,28 +58,40 @@ a:hover {
 header {
     color: #708090;
     background: #b0c4de; 
-    padding: 10px;
+   
 }
 
 /*Projects
 ---------------------------- */
 .projects {
     background:#e0ffff;
+    
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #708090;
+    padding: 25px 0px;
+}
+.project-item img{
+    float:left;
     padding: 10px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 /*Work Experience
 ---------------------------- */
 .work-experience {
     background: #afeeee;
-    padding: 10px;
+    
 }
 
 /*Education
 ---------------------------- */
 .education {
     background: #add8e6;
-    padding: 10px;
+    
 }
 
 /*Contact Info
@@ -65,7 +99,7 @@ header {
 footer {
     color: #708090;
     background: #b0c4de;
-    padding: 10px;
+    
 }
 
 
